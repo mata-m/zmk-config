@@ -49,13 +49,13 @@
         raise_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |BTCLR| BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
-// |     | INS  | PSCR | GUI   |       |      |                | HOME |      |   ^   |      |       |       |
-// |     | ALT  | CTRL | SHIFT |       | CAPS |                | END |   <- |   v   |  ->  |  DEL  | BKSPC |
+// |     | INS  | PSCR | GUI   |       |      |                | END |      |   ^   |      |       |       |
+// |     | ALT  | CTRL | SHIFT |       | CAPS |                | HOME |   <- |   v   |  ->  |  DEL  | BKSPC |
 // |     | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |    CAPS   |
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
-&bt BT_CLR     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp HOME &trans    &kp UP   &trans    &kp N0  &trans
-&bt BT_PRV     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp END &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
+&bt BT_CLR     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp END &trans    &kp UP   &trans    &kp N0  &trans
+&bt BT_PRV     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp HOME &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
 &bt BT_NXT      &kp K_UNDO   &kp UNDER    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans 	&trans    &trans    &trans   &trans    &trans  &trans    &trans  &kp CLCK
                         &trans       &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans
             >;
