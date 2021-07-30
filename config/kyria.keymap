@@ -56,7 +56,7 @@
             bindings = <
 &trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                   &kp HOME &trans    &kp UP   &trans    &kp N0  &trans
 &trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                 &kp END &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans 	&trans    &trans    &trans   &trans    &trans  &trans    &trans  &CAPS
+&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans  &trans   &trans 	&trans    &trans    &trans   &trans    &trans  &trans    &trans  &kp CLCK
                         &trans       &trans       &trans       &trans  &trans   &trans  &trans    &trans    &trans   &trans
             >;
 
